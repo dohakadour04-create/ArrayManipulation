@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Array Manipulation</h1>
+
+        <label for="elementInput">Enter an element:</label>
+        <input type="text" id="elementInput" placeholder="Enter a value">
+
+        <div class="buttons">
+            <button id="addLastButton">Add Last</button>
+            <button id="addFirstButton">Add First</button>
+            <button id="removeLastButton">Remove Last</button>
+            <button id="removeFirstButton">Remove First</button>
+        </div>
+
+        <h2>Remove by Index</h2>
+        <label for="indexInput">Enter an index (starting at 0):</label>
+        <input type="number" id="indexInput" min="0" placeholder="e.g. 0">
+        <button id="removeIndexButton">Remove Element</button>
+
+        <p id="message" role="status"></p>
+
+        <h2>Current Array</h2>
+        <div id="arrayElements"></div>
+    </div>
+</body>
+</html>
